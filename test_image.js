@@ -66,7 +66,7 @@ async function takeAndCompareScreenshot(page, route, filePrefix) {
 
   // Start the browser, go to that page, and take a screenshot.
   //await page.goto(`http://127.0.0.1:4000/${route}`);
-  await page.goto(`http://idlegauntlet.com/play.html`);
+  await page.goto(`http://www.google.co.uk`);
   await page.screenshot({path: `${testDir}/${fileName}.png`});
 
   // Test to see if it's right.
